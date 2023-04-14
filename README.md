@@ -1,7 +1,7 @@
 # I-Talent App
 De webapplicatie biedt een dynamische verzameling van I-Talent foto's, voorzien van korte uitleg in het onderschrift. Deze afbeeldingen zijn zorgvuldig verzameld uit alle uitgevoerde POP-sessies en seminaries, waarbij een breed scala aan talenten en vaardigheden in verschillende situaties is vastgelegd. Via deze webapplicatie kun je op een handige manier een beter inzicht krijgen in de uiteenlopende activiteiten die tijdens I-talent gevolgd kunnen worden.
 
-![image](https://user-images.githubusercontent.com/91525259/232086767-3b618e3c-2eee-4539-9e84-e996f9a29335.png)
+https://user-images.githubusercontent.com/91525259/232122300-0b8b910e-3578-47e0-832f-cb3900a42d2b.mp4
 
 ## Frontend
 Gebruikte technologie: Angular 12
