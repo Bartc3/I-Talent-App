@@ -1,20 +1,22 @@
-# PXL 3 tier web application sample app
+# I-Talent App
 
 ## frontend
-Angular 12
+Gebruikte technologie: Angular 12
 
-## API url
-The API url is defined in the file `/frontend/environments/environment.prod.ts`. This value gets set by the `APIURL` argument in the `docker-compose.yml` file. The multistage dockerfile uses this value before the build process.
+De API url is gedefinieerd in het bestand `/frontend/environments/environment.prod.ts`. Deze waarde wordt ingesteld door het argument `APIURL` in het bestand `docker-compose.yml`.
 
 ## Backend
-NodeJS + express + mongoose
+Gebruikte technologie: NodeJS + express + mongoose
 
-there is a `/health` endpoint for a healthcheck
+De afbeeldingscarrousel-URL's bevinden zich in het bestand `/backend/data/carrousel.json`
 
-image carrousel urls are located in `/backend/data/carrousel.json`
-
-### Database
-MongoDb
+## Requirements
+* Docker geïnstalleerd op host
+* Git command line tool
 
 ## Setup
-* run `docker-compose build && docker-compose up` to boot
+1. Clone de repository via `git clone https://github.com/Bartc3/I-Talent-App.git` 
+2. Navigeer naar de plaats waar deze directory zich bevind
+3. Voer `docker-compose build` uit
+4. Voer `docker-compose up` uit
+5. De website is bereikbaar via `http://localhost` in de browser
